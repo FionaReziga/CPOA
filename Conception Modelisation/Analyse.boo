@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{858F357C-CC79-4BD1-A8FF-ACDA7184D3B1}" Label="" LastModificationDate="1447686963" Name="Analyse AppliTennis" Objects="14" Symbols="5" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{858F357C-CC79-4BD1-A8FF-ACDA7184D3B1}" Label="" LastModificationDate="1447087406" Name="Analyse AppliTennis" Objects="20" Symbols="7" Target="Java" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -982,7 +982,7 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>DCL</a:Code>
 <a:CreationDate>1447086866</a:CreationDate>
 <a:Creator>Fiona</a:Creator>
-<a:ModificationDate>1447686709</a:ModificationDate>
+<a:ModificationDate>1447086869</a:ModificationDate>
 <a:Modifier>Fiona</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1393,36 +1393,23 @@ Shadow=0</a:DisplayPreferences>
 <a:PageMargins>((315,354), (433,354))</a:PageMargins>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
-<c:Symbols>
-<o:TitleSymbol Id="o6">
-<a:Text>Version: </a:Text>
-<a:CreationDate>1447686709</a:CreationDate>
-<a:ModificationDate>1447686793</a:ModificationDate>
-<a:Rect>((-6329,29613), (5895,36356))</a:Rect>
-<a:TextStyle>4130</a:TextStyle>
-<a:LineColor>16711680</a:LineColor>
-<a:FillColor>16777215</a:FillColor>
-<a:ShadowColor>12632256</a:ShadowColor>
-<a:FontName>Arial,8,N</a:FontName>
-</o:TitleSymbol>
-</c:Symbols>
 </o:ClassDiagram>
 </c:ClassDiagrams>
 <c:Packages>
-<o:Package Id="o7">
+<o:Package Id="o6">
 <a:ObjectID>2D64475A-DB3E-42D6-B640-2DCBDCF585AC</a:ObjectID>
-<a:Name>Billeterie</a:Name>
-<a:Code>billeterie</a:Code>
+<a:Name>Matchs</a:Name>
+<a:Code>matchs</a:Code>
 <a:CreationDate>1447087295</a:CreationDate>
 <a:Creator>Fiona</a:Creator>
-<a:ModificationDate>1447686963</a:ModificationDate>
+<a:ModificationDate>1447087394</a:ModificationDate>
 <a:Modifier>Fiona</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:DefaultDiagram>
-<o:UseCaseDiagram Ref="o8"/>
+<o:UseCaseDiagram Ref="o7"/>
 </c:DefaultDiagram>
 <c:UseCaseDiagrams>
-<o:UseCaseDiagram Id="o8">
+<o:UseCaseDiagram Id="o7">
 <a:ObjectID>60B42E89-9801-43C1-9E5F-DF4B5DBA4ED1</a:ObjectID>
 <a:Name>DCU</a:Name>
 <a:Code>DCU</a:Code>
@@ -1727,7 +1714,7 @@ Shadow=0</a:DisplayPreferences>
 </o:UseCaseDiagram>
 </c:UseCaseDiagrams>
 <c:SequenceDiagrams>
-<o:SequenceDiagram Id="o9">
+<o:SequenceDiagram Id="o8">
 <a:ObjectID>38FF681A-9C04-41DA-B896-693EC2280EC3</a:ObjectID>
 <a:Name>DSQ : réserver billet</a:Name>
 <a:Code>DSQ_:_reserver_billet</a:Code>
@@ -2113,7 +2100,7 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:InteractionSymbol Id="o10">
+<o:InteractionSymbol Id="o9">
 <a:CreationDate>1447087339</a:CreationDate>
 <a:ModificationDate>1447087339</a:ModificationDate>
 <a:Rect>((-11000,-14400), (10995,14392))</a:Rect>
@@ -2124,12 +2111,12 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
 <a:BrushStyle>4</a:BrushStyle>
 <c:Object>
-<o:SequenceDiagram Ref="o9"/>
+<o:SequenceDiagram Ref="o8"/>
 </c:Object>
 </o:InteractionSymbol>
 </c:Symbols>
 </o:SequenceDiagram>
-<o:SequenceDiagram Id="o11">
+<o:SequenceDiagram Id="o10">
 <a:ObjectID>323C730F-DF7C-4B4E-B9B6-3131FCBF4822</a:ObjectID>
 <a:Name>DSQ : annuler reservation</a:Name>
 <a:Code>DSQ_:_annuler_reservation</a:Code>
@@ -2515,7 +2502,7 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:InteractionSymbol Id="o12">
+<o:InteractionSymbol Id="o11">
 <a:CreationDate>1447087341</a:CreationDate>
 <a:ModificationDate>1447087341</a:ModificationDate>
 <a:Rect>((-11000,-14400), (10995,14392))</a:Rect>
@@ -2526,27 +2513,27 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
 <a:BrushStyle>4</a:BrushStyle>
 <c:Object>
-<o:SequenceDiagram Ref="o11"/>
+<o:SequenceDiagram Ref="o10"/>
 </c:Object>
 </o:InteractionSymbol>
 </c:Symbols>
 </o:SequenceDiagram>
 </c:SequenceDiagrams>
 </o:Package>
-<o:Package Id="o13">
+<o:Package Id="o12">
 <a:ObjectID>3C227677-E657-4248-913C-8394AF0E4829</a:ObjectID>
-<a:Name>Match</a:Name>
-<a:Code>match</a:Code>
+<a:Name>Billeterie</a:Name>
+<a:Code>billeterie</a:Code>
 <a:CreationDate>1447087390</a:CreationDate>
 <a:Creator>Fiona</a:Creator>
-<a:ModificationDate>1447686958</a:ModificationDate>
+<a:ModificationDate>1447087406</a:ModificationDate>
 <a:Modifier>Fiona</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:DefaultDiagram>
-<o:UseCaseDiagram Ref="o14"/>
+<o:UseCaseDiagram Ref="o13"/>
 </c:DefaultDiagram>
 <c:UseCaseDiagrams>
-<o:UseCaseDiagram Id="o14">
+<o:UseCaseDiagram Id="o13">
 <a:ObjectID>C4624118-62D0-496F-A77E-1885D8D28102</a:ObjectID>
 <a:Name>DCU </a:Name>
 <a:Code>DCU</a:Code>
@@ -2851,7 +2838,7 @@ Shadow=0</a:DisplayPreferences>
 </o:UseCaseDiagram>
 </c:UseCaseDiagrams>
 <c:SequenceDiagrams>
-<o:SequenceDiagram Id="o15">
+<o:SequenceDiagram Id="o14">
 <a:ObjectID>DE43EC60-62CC-4A2A-B443-A7A1D75ADAA3</a:ObjectID>
 <a:Name>DSQ : créer match</a:Name>
 <a:Code>DSQ_:_creer_match</a:Code>
@@ -3237,7 +3224,7 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:InteractionSymbol Id="o16">
+<o:InteractionSymbol Id="o15">
 <a:CreationDate>1447087400</a:CreationDate>
 <a:ModificationDate>1447087400</a:ModificationDate>
 <a:Rect>((-11000,-14400), (10995,14392))</a:Rect>
@@ -3248,12 +3235,12 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
 <a:BrushStyle>4</a:BrushStyle>
 <c:Object>
-<o:SequenceDiagram Ref="o15"/>
+<o:SequenceDiagram Ref="o14"/>
 </c:Object>
 </o:InteractionSymbol>
 </c:Symbols>
 </o:SequenceDiagram>
-<o:SequenceDiagram Id="o17">
+<o:SequenceDiagram Id="o16">
 <a:ObjectID>75FB8704-8B94-47AE-B528-2A11C909BC7A</a:ObjectID>
 <a:Name>DSQ : définir arbitre</a:Name>
 <a:Code>DSQ_:_definir_arbitre</a:Code>
@@ -3639,7 +3626,7 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:InteractionSymbol Id="o18">
+<o:InteractionSymbol Id="o17">
 <a:CreationDate>1447087402</a:CreationDate>
 <a:ModificationDate>1447087402</a:ModificationDate>
 <a:Rect>((-11000,-14400), (10995,14392))</a:Rect>
@@ -3650,7 +3637,7 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
 <a:BrushStyle>4</a:BrushStyle>
 <c:Object>
-<o:SequenceDiagram Ref="o17"/>
+<o:SequenceDiagram Ref="o16"/>
 </c:Object>
 </o:InteractionSymbol>
 </c:Symbols>
@@ -3662,13 +3649,13 @@ Shadow=0</a:DisplayPreferences>
 <o:ClassDiagram Ref="o5"/>
 </c:DefaultDiagram>
 <c:TargetModels>
-<o:TargetModel Id="o19">
+<o:TargetModel Id="o18">
 <a:ObjectID>B376D01D-955B-4A1A-AE88-617494F78E6E</a:ObjectID>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
 <a:CreationDate>1447086778</a:CreationDate>
 <a:Creator>Fiona</a:Creator>
-<a:ModificationDate>1447686589</a:ModificationDate>
+<a:ModificationDate>1447086778</a:ModificationDate>
 <a:Modifier>Fiona</a:Modifier>
 <a:TargetModelURL>file:///%_OBJLANG%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
@@ -3677,13 +3664,13 @@ Shadow=0</a:DisplayPreferences>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o20">
+<o:TargetModel Id="o19">
 <a:ObjectID>90EAAFF1-ADB2-4A71-86FC-F1CE14C01680</a:ObjectID>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1447086779</a:CreationDate>
 <a:Creator>Fiona</a:Creator>
-<a:ModificationDate>1447686591</a:ModificationDate>
+<a:ModificationDate>1447086779</a:ModificationDate>
 <a:Modifier>Fiona</a:Modifier>
 <a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
